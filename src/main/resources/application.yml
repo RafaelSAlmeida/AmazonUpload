@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: amazon-upload
+endpoints:
+  info:
+    enabled: true
+logging:
+  level:
+    ROOT: INFO
+minio:
+  url: http://127.0.0.1:9000
+  accessKey: AKIAIOSFODNN7EXAMPLE
+  secretKey: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+  bucket: upload-folder
